@@ -4,6 +4,7 @@
 	<meta charset="utf-8">
 	<title>Woolspun Yarn</title>
 	<link rel="stylesheet" href="contents/reset.css" type="text/css">
+	<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
 	<link rel="stylesheet" href="contents/main.css" type="text/css">
 </head>
 <body>
@@ -15,7 +16,7 @@
 				<li><a href="#">Needles and Hooks</a></li>
 				<li><a href="#">Patterns</a></li>
 			</ul>
-			<a href="#" id="cart">View Cart</a>
+			<a href="#" id="cart"><i class="fa fa-shopping-cart" aria-hidden="true"></i> View Cart</a>
 			<form>
 				<input type="search" placeholder="Search">
 			</form>
@@ -23,15 +24,18 @@
 	</header>
 	<main>
 		<h1>Woolspun Yarn</h1>
-		<img id="product" src="contents/woolspun-1.jpg" alt="woolspun yarn" height="340" width="340" />
-		<div id="thumbnails">
-			<img id="beigeYarn" src="contents/Woolspun-1.jpg" alt="beige" height="80" width="80" />
-			<img id="blueYarn" src="contents/Woolspun-blue.jpg" alt="blue" height="80" width="80" />
-			<img id="greenYarn" src="contents/Woolspun-green.jpg" alt="green" height="80" width="80" />
-			<img id="greyYarn" src="contents/Woolspun-grey.jpg" alt="grey" height="80" width="80" />
+		<div>
+			<img id="product" src="contents/woolspun-1.jpg" alt="woolspun yarn" height="340" width="340" />
+			<div id="thumbnails">
+				<img id="beigeYarn" src="contents/Woolspun-1.jpg" alt="beige" height="80" width="80" />
+				<img id="blueYarn" src="contents/Woolspun-blue.jpg" alt="blue" height="80" width="80" />
+				<img id="greenYarn" src="contents/Woolspun-green.jpg" alt="green" height="80" width="80" />
+				<img id="greyYarn" src="contents/Woolspun-grey.jpg" alt="grey" height="80" width="80" />
+			</div>
 		</div>
-		<h4>Price: $5.99</h4>
-		<h4><a href="index.html#reviews">Reviews</a></h4>
+		<div id="productInfo">
+		<h4>Price: $5.99</h4><br />
+		<a href="index.html#reviews">Reviews</a>
 		<h3>Description</h3>
 		<p>With an exquisite range of 35 neutrals, vivids, prints and mixes, 
 			Lion's Pride® Woolspun® will become your go-to yarn. 
@@ -72,7 +76,7 @@
 					<option value="blue">Blue</option>
 					<option value="green">Green</option>
 					<option value="grey">Grey</option>
-				</select>
+				</select><br />
 				<label>Quantity</label>
 				<input type="number" min="1" max="10" placeholder="1">
 			</fieldset>
@@ -89,6 +93,7 @@
 				<input type="submit">
 			</form>
 		</div>
+		</div>
 		</main>
 		
 		<footer>
@@ -102,9 +107,9 @@
 					<li><a href="#">Terms of Use</a></li>
 				</ul>
 				<ul>
-					<li><a href="#"><img src="#" alt="facebook"></a></li>
-					<li><a href="#"><img src="#" alt="pinterest"></a></li>
-					<li><a href="#"><img src="#" alt="twitter"></a></li>
+					<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+					<li><a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
+					<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
 				</ul>
 			</nav>
 					

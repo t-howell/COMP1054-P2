@@ -4,8 +4,28 @@ body {
 	margin: 0 auto;
 	color: #333;
 }
+/* Header */
 header {
 	background-color: #777;
+	height: 120px;
+}
+nav>img {
+	float: left;
+	
+}
+nav>form>input {
+	clear: both;
+	float: right;
+	margin-bottom: 3em;
+}
+nav>a {
+	float: right;
+	padding: 1em;
+	height: 30px;
+}
+nav>ul>li {
+	float: left;
+	padding: 2em;
 }
 ul {
 	list-style: none;
@@ -14,17 +34,72 @@ a {
 	text-decoration: none;
 	color: pink;
 }
+
+/* Main */
 main {
 	padding: 2em;
+	width: 800px;
+	margin: 0 auto;
+	background-color: #fff;
+}
+/* Left div styles */
+main>div {
+	float: left;
+	padding-bottom: 100px;
+	padding-right: 1em;
+	background-color: lightblue;
+}
+h1 {
+	font-size: 40px;
+	padding-bottom: 1em;
+}
+h3 {
+	font-size: 30px;
+	padding: 1em;
 }
 img {
 	border: 1px #555 solid;
 }
 img#product {
 /*	box-shadow: 5px 5px 5px #777;*/
-
+	display: inline-block;
 	padding-bottom: 2em;
 }
+/* Right div styles */
+div>h4:first-of-type {
+	float: right;
+	padding: 1em;
+}
+div>a {
+	float: right;
+}
+p {
+	padding-left: 1em;
+}
+/* Table Styles */
+table {
+	margin: 0 auto;
+}
+td {
+	padding: .5em;
+	width: 100px;
+	padding-left: 2em;
+}
+tr:nth-of-type(odd) {
+	background-color: #999;
+}
+/* Form Styles */
+form {
+	padding: 1em;
+}
+div#productInfo {
+	margin: 0 auto;
+	width: 400px;
+	float: right;
+}
 footer {
+	height: 100px;
+	width: 100%;
+	clear: both;
 	background-color: #777;
 }
