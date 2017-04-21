@@ -14,6 +14,7 @@
 				<li><a href="#">Needles and Hooks</a></li>
 				<li><a href="#">Patterns</a></li>
 			</ul>
+			<a href="#" id="cart">View Cart</a>
 			<form>
 				<input type="search" placeholder="Search">
 			</form>
@@ -65,7 +66,12 @@
 		<form>
 			<fieldset>
 				<label>Color</label>
-				<input type="text">
+				<select>
+					<option value="beige" selected>Beige</option>
+					<option value="blue">Blue</option>
+					<option value="green">Green</option>
+					<option value="grey">Grey</option>
+				</select>
 				<label>Quantity</label>
 				<input type="number" min="1" max="10" placeholder="1">
 			</fieldset>
@@ -76,9 +82,31 @@
 			<p>Great product!</p>
 			<p>Love the colours</p>
 			<p>I find this blend to be extremely flammable</p>
+			<form>
+				<label>Leave a review</label><br />
+				<textarea rows="7" cols="30">Leave your review here...</textarea><br />
+				<input type="submit">
+			</form>
 		</div>
 		</main>
-		<footer><small>Copyright 2017 - The Wool Team</small>
+		
+		<footer>
+			<nav>
+				<ul>
+					<li><a href="#">About Us</a></li>
+					<li><a href="#">FAQ</a></li>
+					<li><a href="#">Contact Us</a></li>
+					<li><a href="#">Return Policy</a></li>
+					<li><a href="#">Privacy Policy</a></li>
+					<li><a href="#">Terms of Use</a></li>
+				</ul>
+				<ul>
+					<li><a href="#"><img src="#"></a></li>
+					<li><a href="#"><img src="#"></a></li>
+					<li><a href="#"><img src="#"></a></li>
+			</nav>
+					
+					<small>Copyright 2017 - The Wool Team</small>
 		<!--Custom JS -->
 		<script src="scripts/app.js"></script>
 		</footer>
