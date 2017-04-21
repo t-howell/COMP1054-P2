@@ -5,7 +5,7 @@ body {
 	color: #333;
 }
 header {
-	background-color: lightblue;
+	background-color: #777;
 }
 ul {
 	list-style: none;
@@ -16,6 +16,14 @@ a {
 }
 main {
 	padding: 2em;
+}
+img {
+	border: 1px #555 solid;
+}
+img#product {
+/*	box-shadow: 5px 5px 5px #777;*/
+
+	padding-bottom: 2em;
 }
 footer {
 	background-color: #777;
