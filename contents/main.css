@@ -1,5 +1,8 @@
+/* Header font */
 @import url('https://fonts.googleapis.com/css?family=Volkhov');
+/* Main content font */
 @import url('https://fonts.googleapis.com/css?family=Didact+Gothic');
+
 /*Basic page styles*/
 body {
 	font-family: 'Didact Gothic', sans-serif;
@@ -65,7 +68,6 @@ main {
 	padding: 2em;
 	width: 70%;
 	margin: 0 auto;
-/*	background-color: #fff;*/
 }
 /* Left div styles */
 main>div {
