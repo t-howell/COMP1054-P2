@@ -149,8 +149,12 @@ footer>nav {
 footer>nav:nth-of-type(2) {
 	width: 300px;
 }
-
+footer>nav>ul>li {
+	padding: .5em;
+}
 small {
 	font-size: 80%;
 	text-transform: uppercase;
+	padding-top: 4em;
+	display: block;
 }
