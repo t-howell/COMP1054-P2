@@ -3,15 +3,23 @@ body {
 	font-family: Arial, Helvetica, sans-serif;
 	margin: 0 auto;
 	color: #333;
+	background-color: #DAD0AE;
 }
 /* Header */
 header {
-	background-color: #777;
+	background-color: #AAB77F;
 	height: 120px;
+	box-shadow: 5px 5px 15px #555;
 }
-nav>img {
+nav {
+	text-align: center;
+}
+header>a>img {
 	float: left;
-	
+	clear: both;
+	border: none;
+	padding-left: 1em;
+	padding: .4em;
 }
 nav>form>input {
 	clear: both;
@@ -19,39 +27,41 @@ nav>form>input {
 	margin-bottom: 3em;
 }
 nav>a {
-	float: right;
+	float: right; 
 	padding: 1em;
-	height: 30px;
+	height: 20px;
 }
 nav>ul>li {
-	float: left;
-	padding: 2em;
+	display: inline-block;
+	padding: 1em;
+	margin: 0;
+	padding-top: 4em;
 }
 ul {
 	list-style: none;
 }
 a {
 	text-decoration: none;
-	color: pink;
+	color: #333;
 }
 
 /* Main */
 main {
 	padding: 2em;
-	width: 800px;
+	width: 70%;
 	margin: 0 auto;
-	background-color: #fff;
+/*	background-color: #fff;*/
 }
 /* Left div styles */
 main>div {
 	float: left;
 	padding-bottom: 100px;
-	padding-right: 1em;
-	background-color: lightblue;
+	padding: 1em;
+	background-color: #fff;
 }
 h1 {
 	font-size: 40px;
-	padding-bottom: 1em;
+	padding: 1em;
 }
 h3 {
 	font-size: 30px;
@@ -66,6 +76,12 @@ img#product {
 	padding-bottom: 2em;
 }
 /* Right div styles */
+/* Product information section */
+div#productInfo {
+	margin: 0 auto;
+	width: 400px;
+	float: right;
+}
 div>h4:first-of-type {
 	float: right;
 	padding: 1em;
@@ -90,16 +106,32 @@ tr:nth-of-type(odd) {
 }
 /* Form Styles */
 form {
+	padding: 3em;
+}
+label, input, textarea, button {
 	padding: 1em;
+	margin: 1em;
 }
-div#productInfo {
-	margin: 0 auto;
-	width: 400px;
-	float: right;
-}
+
+/* Footer Styles */
 footer {
-	height: 100px;
+	height: 200px;
 	width: 100%;
 	clear: both;
-	background-color: #777;
+	background-color: #666;
+	margin: 0 auto;
+	text-align: center;
+	padding-bottom: 1em;
+}
+footer>nav {
+	width: 100%;
+	display: inline-block;
+}
+footer>nav:nth-of-type(2) {
+	width: 300px;
+}
+
+small {
+	font-size: 80%;
+	text-transform: uppercase;
 }
